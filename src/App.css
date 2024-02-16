@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+
+}
+
+#map {
+  height: 100%;
+}
+
+.main-container{
+ display: flex;
+  padding: 10px;
+  margin: 30px 80px;
+  gap: 30px;
+}
+.cart-page{
+  width: 100vw;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.cart-empty{
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.cart-empty img{
+  width: 100%;
+  height: 300px;
+}
