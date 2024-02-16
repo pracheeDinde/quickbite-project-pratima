@@ -1,0 +1,56 @@
+.img{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   gap: 0;
+   padding: 0;
+   border: 1px solid orange;
+   border-radius: 3px;
+   
+   
+}
+.main-div{
+    width: 950px;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    border-radius: 10px;
+}
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+
+  .wallet-combo{
+    border: orange;
+    width: 548px;
+    color: gray;
+    outline: none;
+  }
+  .img1{
+    height: 10px;
+    width: 10px;
+  }
+   .select{
+    outline: none;
+   }
+   .btn1{
+    border: 1px solid orange;
+    width:548px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background: linear-gradient(to bottom right,orange, rgb(224, 222, 79));
+   }
+   .btn1 :hover{
+    background: linear-gradient(to bottom right,orange, rgb(224, 222, 79));
+
+   }
+
+   
