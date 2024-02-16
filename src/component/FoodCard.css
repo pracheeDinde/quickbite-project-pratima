@@ -1,0 +1,109 @@
+.food-card{
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+.resto-card-info,.food-item-card,.bill-detail{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  
+}
+.resto-card-info{
+    gap: 15px;
+}
+.resto-card-info img{
+    width: 20%;
+    height: 100%;
+}
+.rest-info h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rest-info h4{
+    position: relative;
+    font-size: 15px;
+    color: gray;
+}
+
+.rest-info h4 div{
+    margin-top: 5px;
+    width: 37%;
+    height: 2px;
+    
+}
+
+.add-item-box{
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+   width: 70px;
+   height: 30px;
+   margin-left: 60px;
+}
+
+.food-item-card{
+    justify-content: space-around;
+    margin-top: 10px;
+   
+}
+.add-item-box i{
+    font-size: 22px;
+}
+
+.food-item-card .bx-checkbox-square{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.food-name{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.food-name h3{
+font-weight: 400;
+}
+
+.bill-detail{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bill-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.bill-info div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3px 0;
+  
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+}
+.bill-detail h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.bill-detail h4{
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+.pay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
