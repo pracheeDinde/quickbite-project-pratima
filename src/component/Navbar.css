@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px 50px;
+    align-items: center;
+    background: linear-gradient(to left,rgb(255, 203, 34), rgb(224, 222, 79));
+
+}
+
+img{
+    width: 250px;
+    height: 100px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul li:hover{
+     color: white;
+     transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+nav img{
+    width: 300;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode:multiply;
+  
+
+    
+   
+}
